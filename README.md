@@ -23,7 +23,7 @@ No more logging in and out. Just switch profiles instantly or use them all at on
 Open your terminal and paste this:
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Pulkit7070/multigravity-pro/main/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Vanessa-Rodrigues-156/multigravity-pro/main/install.sh)"
 ```
 
 ### Windows
@@ -31,7 +31,7 @@ Open your terminal and paste this:
 Open **PowerShell** and paste:
 
 ```powershell
-irm https://raw.githubusercontent.com/Pulkit7070/multigravity-pro/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/Vanessa-Rodrigues-156/multigravity-pro/main/install.ps1 | iex
 ```
 
 That's it. Multigravity is now installed. Verify everything is set up correctly:
