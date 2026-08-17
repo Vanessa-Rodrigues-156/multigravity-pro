@@ -21,8 +21,13 @@ $BASE = if ($env:MULTIGRAVITY_HOME) { $env:MULTIGRAVITY_HOME } else { "$env:USER
 
 function Find-Antigravity {
     $paths = @(
+        # Antigravity IDE installation path
+        "C:\Users\Lenovo\AppData\Local\Programs\Antigravity IDE\Antigravity IDE.exe",
+        "$env:LOCALAPPDATA\Programs\Antigravity IDE\Antigravity IDE.exe",
         "$env:LOCALAPPDATA\Programs\Antigravity\Antigravity.exe",
+        "$env:PROGRAMFILES\Antigravity IDE\Antigravity IDE.exe",
         "$env:PROGRAMFILES\Antigravity\Antigravity.exe",
+        "${env:ProgramFiles(x86)}\Antigravity IDE\Antigravity IDE.exe",
         "${env:ProgramFiles(x86)}\Antigravity\Antigravity.exe"
     )
     foreach ($p in $paths) {
